@@ -1,4 +1,9 @@
-## Ananda Da Lyadh Khor 👋
+## Scheduled Maintenance Notice
+
+Our website is currently undergoing scheduled maintenance to serve you better. We apologize for any inconvenience this may cause and appreciate your patience.
+Please check back soon — we’ll be up and running again as quickly as possible!
+
+Thank you for your understanding. 👋
 
 <!--
 **drarijitbanik/drarijitbanik** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

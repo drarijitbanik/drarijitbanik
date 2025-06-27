@@ -1,4 +1,4 @@
-## Hi there 👋
+## Ananda Da Lyadh Khor 👋
 
 <!--
 **drarijitbanik/drarijitbanik** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

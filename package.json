@@ -1,6 +1,7 @@
 {
-  "name": "doctor-arijit-banik",
+  "name": "drarijitbanik",
   "version": "0.0.0",
+   "homepage": "https://www.drarijitbanik.in/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

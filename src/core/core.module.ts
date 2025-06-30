@@ -10,6 +10,8 @@ import { RegionComponent } from './feature-components/region/region.component';
 import { AboutComponent } from './feature-components/about/about.component';
 import { FeedbackComponent } from './feature-components/feedback/feedback.component';
 import { SafeUrlPipe } from './pipes/safe-url.pipe';
+import { SpinalSurgeriesComponent } from './treatmnt-offered/spinal-surgeries/spinal-surgeries.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { SafeUrlPipe } from './pipes/safe-url.pipe';
     RegionComponent,
     AboutComponent,
     FeedbackComponent,
-    SafeUrlPipe 
+    SafeUrlPipe,
+    SpinalSurgeriesComponent,
+    CarouselComponent 
   ],
   imports: [
     CommonModule,

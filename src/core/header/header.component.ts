@@ -18,37 +18,7 @@ export class HeaderComponent implements OnInit, AfterViewInit {
     
   }
   ngOnInit(): void {
-    // this.router.events.subscribe(event => {
-    //   if (event instanceof NavigationEnd) {
-    //     const url = event.urlAfterRedirects || event.url;
-    //     if (url.startsWith('/home')) {
-    //       this.activeNav = 'home';
-    //       this.scrollToSection();
-    //     } else if (url.startsWith('/about')) {
-    //       this.activeNav = 'about';
-    //       this.scrollToAbout();
-    //     } else if (url.startsWith('/spinal-surgeries')) {
-    //       this.activeNav = 'spinal';
-    //     } else if (url.startsWith('/brain-trauma-surgeries')) {
-    //       this.activeNav = 'brain-trauma';
-    //     } else if (url.startsWith('/non-traumatic-brain-surgeries')) {
-    //       this.activeNav = 'non-traumatic';
-    //     } else if (url.startsWith('/brain-tumor-surgeries')) {
-    //       this.activeNav = 'tumor';
-    //     } else if (url.startsWith('/pediatric-neurosurgery')) {
-    //       this.activeNav = 'pediatric';
-    //     } else if (url.startsWith('/gallery/photos')) {
-    //       this.activeNav = 'photos';
-    //     } else if (url.startsWith('/gallery/videos')) {
-    //       this.activeNav = 'videos';
-    //     } else if (url.startsWith('/region')) {
-    //       this.activeNav = 'region';
-    //       this.scrollToRegion();
-    //     } else if (url.startsWith('/contact')) {
-    //       this.activeNav = 'contact';
-    //     }
-    //   }
-    // });
+    
   }
 
   ngAfterViewInit(): void {
@@ -63,7 +33,7 @@ export class HeaderComponent implements OnInit, AfterViewInit {
 
   setActiveNav(nav: string, event: Event) {
     this.activeNav = nav;
-   // event.preventDefault();
+    //event.preventDefault();
   }
 
    scrollToSection(event?: Event) {

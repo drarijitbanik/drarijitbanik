@@ -12,6 +12,8 @@ import { FeedbackComponent } from './feature-components/feedback/feedback.compon
 import { SafeUrlPipe } from './pipes/safe-url.pipe';
 import { SpinalSurgeriesComponent } from './treatmnt-offered/spinal-surgeries/spinal-surgeries.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { RouteReuseStrategy } from '@angular/router';
+import { CustomReuseStrategy } from './strategies/custom-reuse-strategy';
 
 
 @NgModule({
@@ -33,6 +35,9 @@ import { CarouselComponent } from './carousel/carousel.component';
   ],
   exports: [
     TemplateComponent
+  ],
+  providers: [
+    { provide: RouteReuseStrategy, useClass: CustomReuseStrategy }
   ]
 })
 export class CoreModule { }

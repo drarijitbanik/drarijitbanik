@@ -5,11 +5,6 @@ import { SpinalSurgeriesComponent } from './treatmnt-offered/spinal-surgeries/sp
 
 const routes: Routes = [
   {
-    path: '',
-    redirectTo: 'home',
-    pathMatch: 'full'
-  },
-  {
     path: 'home',
     component: MainComponent,
     
@@ -25,6 +20,14 @@ const routes: Routes = [
   {
     path: 'spinal-surgeries',
     component: SpinalSurgeriesComponent
+  },
+  {
+    path: '',
+    redirectTo: 'home',
+    pathMatch: 'full'
+  },
+  { path: '**', 
+    redirectTo: 'home' 
   },
 ];
 

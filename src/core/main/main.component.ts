@@ -10,7 +10,6 @@ import { ViewportScroller } from '@angular/common';
 export class MainComponent implements OnInit {
 
   constructor(
-    private route: ActivatedRoute,
     private router: Router,
     private viewportScroller: ViewportScroller
   ) {

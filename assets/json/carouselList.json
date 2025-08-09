@@ -1,0 +1,26 @@
+[
+  {
+    "image": "assets/OT3.jpg",
+    "title": "Welcome to Our Clinic",
+    "description": "Modern facilities and friendly staff.",
+    "alt": "Clinic Exterior"
+  },
+  {
+    "image": "assets/OT2.jpg",
+    "title": "Expert Care",
+    "description": "Personalized treatment for every patient.",
+    "alt": "Doctor at Work"
+  },
+  {
+    "image": "assets/OT1.jpg",
+    "title": "Patient-Centered Approach",
+    "description": "Your health is our priority.",
+    "alt": "Patient Care"
+  },
+  {
+    "image": "assets/OT4.jpg",
+    "title": "Patient-Centered Approach",
+    "description": "Your health is our priority.",
+    "alt": "Patient Care"
+  }
+]
